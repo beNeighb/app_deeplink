@@ -8,10 +8,6 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-<<<<<<< HEAD
-=======
-  // This widget is the root of your application.
->>>>>>> origin/main
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -37,11 +33,7 @@ class _RedirectionPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-<<<<<<< HEAD
         title: const Text('Beneighb redirection page ↪️'),
-=======
-        title: const Text('Redirection page ↪️'),
->>>>>>> origin/main
       ),
       body: const Center(
         child: Padding(
@@ -125,7 +117,7 @@ class _Buttons extends StatelessWidget {
     required String urlToOpen,
   }) {
     const height = 150.0;
-    const width = 200.0;
+    const width = 150.0;
     return InkWell(
       onTap: () {
         launch(url: urlToOpen, isNewTab: true);
